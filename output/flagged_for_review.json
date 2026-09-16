@@ -1,0 +1,161 @@
+[
+  {
+    "id": 4,
+    "owner": "SAM",
+    "needs_reply": true,
+    "needs_sam_approval": false,
+    "disposition": "SAM_PERSONAL",
+    "hard_stop": false,
+    "hard_stop_reason": null,
+    "needs_review": true,
+    "topic_tags": [
+      "churn",
+      "contract",
+      "customer",
+      "renewal"
+    ],
+    "matched_rule": "NO_MATCHING_RULE",
+    "reasoning": "Northwater Dairy has already decided not to renew in November; this is a churn notification, not a pricing/discount negotiation, so 'Pricing, discounts, and anything that changes a contract' does not cleanly apply. The brief has no explicit bucket for customer churn or non-renewal notices. Given the $31k ARR at stake and the judgment call on whether to attempt a save, this still belongs with Sam, but by the brief's ambiguity default rather than a clean rule match.",
+    "confidence": "low",
+    "vip": false,
+    "deadline_detected": "non-renewal in November",
+    "overrides_applied": [
+      "MANUAL CORRECTION (Founder-brief audit: 'Pricing, discounts, and anything that changes a contract' is a stretch for a churn/non-renewal notice; the brief has no explicit rule for this, and the classification should say so rather than cite an imprecise match.) [matched_rule: 'Pricing, discounts, and anything that changes a contract' -> 'NO_MATCHING_RULE', confidence: 'medium' -> 'low', needs_review: False -> True, reasoning: \"This is a $31k ARR customer notifying non-renewal, effectively ending the contract. The brief puts anything that changes a contract in the founder's own hands, and a churn decision of this size is a business-critical matter Sam would want to personally respond to, not something for the BA to draft or handle.\" -> \"Northwater Dairy has already decided not to renew in November; this is a churn notification, not a pricing/discount negotiation, so 'Pricing, discounts, and anything that changes a contract' does not cleanly apply. The brief has no explicit bucket for customer churn or non-renewal notices. Given the $31k ARR at stake and the judgment call on whether to attempt a save, this still belongs with Sam, but by the brief's ambiguity default rather than a clean rule match.\"]"
+    ]
+  },
+  {
+    "id": 5,
+    "owner": "SAM",
+    "needs_reply": false,
+    "needs_sam_approval": false,
+    "disposition": "SAM_PERSONAL",
+    "hard_stop": false,
+    "hard_stop_reason": null,
+    "needs_review": true,
+    "topic_tags": [
+      "engineering-update",
+      "internal-status",
+      "technical-risk"
+    ],
+    "matched_rule": "NO_MATCHING_RULE",
+    "reasoning": "This is an internal engineering sprint status update from the Head of Engineering to the team, cc'ing Sam, explicitly stating nothing is needed from anyone outside the team. The brief has no bucket for internal engineering status reports; it's not clearly a 'security or data incident' (just a performance/timeout risk still being investigated), so it doesn't clearly fall under any BA or Sam-only rule. Defaulting to Sam per the brief's instruction to default to the founder when the brief is silent or ambiguous. No reply is needed since the sender said so and it's an FYI.",
+    "confidence": "low",
+    "vip": true,
+    "deadline_detected": "Wednesday (sprint close / next update)",
+    "overrides_applied": []
+  },
+  {
+    "id": 7,
+    "owner": "SAM",
+    "needs_reply": false,
+    "needs_sam_approval": false,
+    "disposition": "SAM_PERSONAL",
+    "hard_stop": true,
+    "hard_stop_reason": "payment/bank detail change request detected",
+    "needs_review": true,
+    "topic_tags": [
+      "security",
+      "phishing",
+      "banking",
+      "wire-transfer"
+    ],
+    "matched_rule": "Anything that looks like a security or data incident",
+    "reasoning": "This email claims to be from a bank security team but comes from a suspicious lookalike domain (northbrid-ge-alerts.com, not a legitimate bank domain) urging verification of wire recipients within 24 hours - a classic phishing pattern targeting banking/payment details. The brief places anything resembling a security or data incident strictly with the founder, never the BA. No reply should be sent (it is likely fraudulent and the brief also excludes changing bank/payment details from BA action).",
+    "confidence": "high",
+    "vip": false,
+    "deadline_detected": "within 24 hours",
+    "overrides_applied": []
+  },
+  {
+    "id": 8,
+    "owner": "SAM",
+    "needs_reply": false,
+    "needs_sam_approval": false,
+    "disposition": "SAM_PERSONAL",
+    "hard_stop": true,
+    "hard_stop_reason": "payment/bank detail change request detected",
+    "needs_review": true,
+    "topic_tags": [
+      "invoice",
+      "bank-details-change",
+      "vendor-payment",
+      "possible-fraud"
+    ],
+    "matched_rule": "Anything that looks like a security or data incident",
+    "reasoning": "An unsolicited request to change bank details for an invoice payment, from a billing-domain sender that doesn't match the vendor's usual domain pattern, is a classic BEC/payment-fraud pattern. The brief puts security/data incidents and paying invoices or changing bank details squarely in the founder's own hands (never-without-asking / always-Sam territory), so the BA should not draft or act on this at all - it goes straight to Sam.",
+    "confidence": "high",
+    "vip": false,
+    "deadline_detected": "due this week",
+    "overrides_applied": [
+      "hard-rule guardrail: request to change payment/bank details detected; forced to Sam, no BA draft generated"
+    ]
+  },
+  {
+    "id": 16,
+    "owner": "SAM",
+    "needs_reply": true,
+    "needs_sam_approval": false,
+    "disposition": "SAM_PERSONAL",
+    "hard_stop": false,
+    "hard_stop_reason": null,
+    "needs_review": true,
+    "topic_tags": [
+      "website-copy",
+      "brand-voice",
+      "contractor",
+      "marketing"
+    ],
+    "matched_rule": "NO_MATCHING_RULE",
+    "reasoning": "Jae-won is asking Sam personally to supply a one-sentence description of what Verdano does 'in your own words' for the homepage hero line. This isn't scheduling, billing, vendor admin, or personal logistics that the BA could handle, and it requires Sam's own voice/positioning rather than something delegable. The brief doesn't explicitly address website copywriting requests, and 'Press and public statements' is a stretch since this is homepage content, not press/PR, so no bullet clearly covers it. Per the default rule, ambiguous/uncovered topics go to Sam.",
+    "confidence": "low",
+    "vip": false,
+    "deadline_detected": "Wednesday",
+    "overrides_applied": []
+  },
+  {
+    "id": 38,
+    "owner": "SAM",
+    "needs_reply": true,
+    "needs_sam_approval": false,
+    "disposition": "SAM_PERSONAL",
+    "hard_stop": false,
+    "hard_stop_reason": null,
+    "needs_review": true,
+    "topic_tags": [
+      "product_bug",
+      "export_failure",
+      "customer_support",
+      "deadline"
+    ],
+    "matched_rule": "NO_MATCHING_RULE",
+    "reasoning": "Email reports a technical bug (report export timing out on files over ~5,000 rows) from Brightfield Foods, the largest customer, with a hard deadline tied to a board pack. The brief has no bucket for product/technical bug reports: it's not billing/refunds, not scheduling, not a demo request, not vendor admin, and doesn't clearly read as a security/data incident (it's a timeout error, not unauthorized access or a breach). Since the brief is silent on this topic, default to the founder per the fallback rule. VIP status applies via organizational match: Dana Lindqvist (Brightfield Foods) is VIP as largest customer, sender is from that same org and explicitly invokes Dana ('Dana knows I am chasing this'), and Dana is cc'd... actually Dana is not cc'd, Sam is cc'd, but the sender explicitly ties the request to Dana.",
+    "confidence": "low",
+    "vip": true,
+    "deadline_detected": "Wednesday (board pack)",
+    "overrides_applied": []
+  },
+  {
+    "id": 47,
+    "owner": "BA",
+    "needs_reply": false,
+    "needs_sam_approval": false,
+    "disposition": "BA_HANDLES_NO_REPLY",
+    "hard_stop": false,
+    "hard_stop_reason": null,
+    "needs_review": true,
+    "topic_tags": [
+      "travel",
+      "conference",
+      "hotel",
+      "logistics"
+    ],
+    "matched_rule": "Personal logistics: travel changes, appointments, school forms",
+    "reasoning": "This hotel-block deadline is for the same ClimateOps Summit as #11, where Sam has not yet confirmed the speaking slot (a NEVER WITHOUT ASKING / press decision reserved for Sam). Booking travel for an event Sam hasn't committed to speak at is premature, so despite sitting in the BA's personal-logistics bucket by topic, this should not be handled independently - it should wait on Sam's decision on #11.",
+    "confidence": "medium",
+    "vip": false,
+    "deadline_detected": "tonight at midnight CT",
+    "overrides_applied": [
+      "MANUAL CORRECTION (Founder-brief audit: correctly the BA's topic by subject matter (travel logistics), but the booking decision is coupled to an unresolved SAM_PERSONAL item (#11, the speaking-slot confirmation) - flagged for review rather than auto-handled, to avoid booking travel ahead of Sam's speaking decision.) [needs_review: False -> True, reasoning: \"This is a logistics notice about booking Sam's conference hotel room, which falls under personal travel logistics that the BA handles. It's an informational deadline notice rather than a question needing a reply to the sender \u2014 the action needed is booking the room via the link before the deadline, not drafting a response.\" -> \"This hotel-block deadline is for the same ClimateOps Summit as #11, where Sam has not yet confirmed the speaking slot (a NEVER WITHOUT ASKING / press decision reserved for Sam). Booking travel for an event Sam hasn't committed to speak at is premature, so despite sitting in the BA's personal-logistics bucket by topic, this should not be handled independently - it should wait on Sam's decision on #11.\"]"
+    ]
+  }
+]

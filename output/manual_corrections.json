@@ -1,0 +1,74 @@
+[
+  {
+    "id": 4,
+    "reason": "Founder-brief audit: 'Pricing, discounts, and anything that changes a contract' is a stretch for a churn/non-renewal notice; the brief has no explicit rule for this, and the classification should say so rather than cite an imprecise match.",
+    "fields": {
+      "matched_rule": "NO_MATCHING_RULE",
+      "confidence": "low",
+      "needs_review": true,
+      "reasoning": "Northwater Dairy has already decided not to renew in November; this is a churn notification, not a pricing/discount negotiation, so 'Pricing, discounts, and anything that changes a contract' does not cleanly apply. The brief has no explicit bucket for customer churn or non-renewal notices. Given the $31k ARR at stake and the judgment call on whether to attempt a save, this still belongs with Sam, but by the brief's ambiguity default rather than a clean rule match."
+    }
+  },
+  {
+    "id": 43,
+    "reason": "Founder-brief audit: 'Unbudgeted spend above $1,000' mischaracterizes a mandatory recurring tax payment as discretionary spend; 'Pay an invoice or change bank details' is the precise, on-point NEVER WITHOUT ASKING rule since the email is a payment-execution confirmation request.",
+    "fields": {
+      "matched_rule": "Pay an invoice or change bank details",
+      "reasoning": "Grover & Lin ask Sam to confirm once the $4,120 Q3 estimated-tax payment is scheduled. Quarterly estimated tax is a mandatory recurring obligation, not discretionary 'unbudgeted spend' - the better fit is NEVER WITHOUT ASKING's 'Pay an invoice or change bank details', since the email is explicitly a payment-execution confirmation request. Owner stays Sam either way."
+    }
+  },
+  {
+    "id": 42,
+    "reason": "Founder-brief audit: no compensation decision is actually presented here - this is an unsolicited staffing-agency pitch, materially the same as email #29, which was correctly routed to the BA's no-reply-needed bucket.",
+    "fields": {
+      "owner": "BA",
+      "needs_reply": false,
+      "needs_sam_approval": false,
+      "disposition": "BA_HANDLES_NO_REPLY",
+      "matched_rule": "Newsletters, notifications, and anything that needs no answer",
+      "confidence": "medium",
+      "needs_review": false,
+      "reasoning": "Brandon is an unsolicited staffing-agency recruiter pitching three candidate profiles on a contingent 18% placement fee - no offer or compensation decision is actually being made, so 'Hiring offers and compensation' does not apply. This is materially the same as #29 ('500 vetted engineers, ready in 72 hours'), an unsolicited cold-outreach pitch that needs no answer."
+    }
+  },
+  {
+    "id": 47,
+    "reason": "Founder-brief audit: correctly the BA's topic by subject matter (travel logistics), but the booking decision is coupled to an unresolved SAM_PERSONAL item (#11, the speaking-slot confirmation) - flagged for review rather than auto-handled, to avoid booking travel ahead of Sam's speaking decision.",
+    "fields": {
+      "needs_review": true,
+      "reasoning": "This hotel-block deadline is for the same ClimateOps Summit as #11, where Sam has not yet confirmed the speaking slot (a NEVER WITHOUT ASKING / press decision reserved for Sam). Booking travel for an event Sam hasn't committed to speak at is premature, so despite sitting in the BA's personal-logistics bucket by topic, this should not be handled independently - it should wait on Sam's decision on #11."
+    }
+  },
+  {
+    "id": 23,
+    "reason": "Founder-brief audit: the calendar rules explicitly instruct how to resolve a 'full hour' request (25 or 50 minutes, never 60), so counter-proposing 50 minutes instead of the requested hour is exactly the scenario 'Scheduling and rescheduling, including with VIPs, as long as the preferences below are respected' delegates to the BA - no separate approval needed.",
+    "fields": {
+      "needs_sam_approval": false,
+      "disposition": "DRAFT_NO_APPROVAL",
+      "reasoning": "Dana asked for a full hour Wednesday at 2 PM; the calendar rules explicitly cap meetings at 25 or 50 minutes and never 60, so counter-proposing 50 minutes (2:00-2:50 PM) or the Oct 6 fallback is precisely the scenario the brief delegates to the BA under 'Scheduling and rescheduling, including with VIPs, as long as the preferences below are respected.' The calendar rule itself is the guidance being applied here, not a judgment call outside the BA's remit, so no separate approval is needed."
+    }
+  },
+  {
+    "id": 50,
+    "reason": "Founder-brief audit: no approval or action is requested from Sam - this is an informational automated vendor billing notification (existing contracted vendor, auto-pay), which should be treated consistently with #34's account-notification handling rather than as a discretionary unbudgeted-spend approval request.",
+    "fields": {
+      "owner": "BA",
+      "needs_reply": false,
+      "needs_sam_approval": false,
+      "disposition": "BA_HANDLES_NO_REPLY",
+      "matched_rule": "Vendor admin, renewals under $500, and account notifications",
+      "confidence": "medium",
+      "needs_review": false,
+      "reasoning": "This is an automated notification from an existing infrastructure vendor; payment is collected automatically on the 20th and no approval or action is requested from Sam. The 'renewals under $500' cap in the brief's vendor-admin bullet attaches to 'renewals', not to 'account notifications', the same reading already applied to #34's $18,420 payout notice - both are informational vendor/billing notifications the BA can handle without escalating. 'Unbudgeted spend above $1,000' would apply if Sam were being asked to approve new spend, but no approval is being requested here."
+    }
+  },
+  {
+    "id": 49,
+    "reason": "Founder-brief audit: the draft asserts 'Nothing on my end that conflicts with Sept 28 to Oct 2', a definitive claim about Sam's calendar that the BA cannot actually verify; the draft's own note_to_sam admits no visibility into Sam's calendar for that period, so it should not be sent without Sam confirming the calendar first.",
+    "fields": {
+      "needs_sam_approval": true,
+      "disposition": "DRAFT_NEEDS_APPROVAL",
+      "reasoning": "Jae-won is a design contractor asking for PTO approval Sept 28 to Oct 2. The drafted reply states there is no calendar conflict, but the BA has no visibility into Sam's own calendar for that period - it took the contractor's note about a clear calendar at face value. That is a definitive claim about Sam's availability the BA cannot actually verify, so the draft needs Sam's confirmation before it goes out rather than being sent as BA-authorized. Owner and scheduling topic classification are otherwise unchanged."
+    }
+  }
+]

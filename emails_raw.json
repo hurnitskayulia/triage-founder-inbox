@@ -1,0 +1,665 @@
+{
+  "scenario": {
+    "company": "Verdano",
+    "what_it_does": "Software that helps mid-size food manufacturers measure and cut supply-chain emissions.",
+    "stage": "Seed, $4.2M raised, led by Harborline Ventures. 14 people, remote-first, US East Coast.",
+    "founder": "Sam Okonkwo, co-founder and CEO (they/them)",
+    "you": "You started this morning as Sam's Business Associate. You have delegated access to their inbox.",
+    "moment": "Monday, 09/14/2026, 8:40 AM ET. Sam is on a flight until 11:30 AM and asked for a brief in their inbox when they land.",
+    "inbox_size": 50,
+    "window": "Everything that arrived since Friday morning, 09/11/2026."
+  },
+  "founder_brief": {
+    "vip_senders": [
+      "Priya Raman (Harborline Ventures, lead investor and board member)",
+      "Dana Lindqvist (Brightfield Foods, largest customer, $84k ARR)",
+      "Bianca Ferraro (Wright & Callow, outside counsel)",
+      "Eli Cardoso (Head of Engineering)",
+      "Anything from the school or from family"
+    ],
+    "always_founder": [
+      "Pricing, discounts, and anything that changes a contract",
+      "Legal terms and signatures",
+      "Investors, the board, and fundraising",
+      "Hiring offers and compensation",
+      "Press and public statements",
+      "Anything that looks like a security or data incident",
+      "Unbudgeted spend above $1,000"
+    ],
+    "ba_handles": [
+      "Scheduling and rescheduling, including with VIPs, as long as the preferences below are respected",
+      "Billing questions and refunds under $500",
+      "First replies to inbound demo requests, and booking them with Renata",
+      "Vendor admin, renewals under $500, and account notifications",
+      "Personal logistics: travel changes, appointments, school forms",
+      "Newsletters, notifications, and anything that needs no answer"
+    ],
+    "tone": [
+      "Short. Three sentences beats ten.",
+      "First names, no titles.",
+      "No 'I hope this email finds you well', no 'reaching out', no em dashes.",
+      "Say the thing first, context after.",
+      "Never apologise on Sam's behalf for something we did not get wrong."
+    ],
+    "calendar_rules": [
+      "Meetings are 25 or 50 minutes, never 30 or 60.",
+      "Nothing before 10:00 AM ET or after 5:00 PM ET.",
+      "Wednesday 9:00 AM to 1:00 PM is a focus block. Protect it.",
+      "No external meetings on Fridays.",
+      "Maximum four external meetings a day, 15 minutes between them.",
+      "Working hours 9:00 AM to 6:00 PM ET. Sam is in New York."
+    ],
+    "never_without_sam": [
+      "Commit to a price, a discount, or a contract term",
+      "Confirm a speaking slot, a podcast, or a press quote",
+      "Accept or decline an investor meeting",
+      "Make an intro on Sam's behalf",
+      "Send anything to a customer that promises a date for a feature",
+      "Pay an invoice or change bank details"
+    ]
+  },
+  "calendar": {
+    "timezone": "America/New_York",
+    "week_of": "09/14/2026",
+    "events": [
+      {
+        "day": "Monday 09/14",
+        "items": [
+          "Flight, 8:00 to 11:30 AM",
+          "Eng sync, 12:00 to 12:25 PM",
+          "1:1 Renata, 2:00 to 2:25 PM",
+          "Customer call, Sunfeather, 4:00 to 4:50 PM"
+        ]
+      },
+      {
+        "day": "Tuesday 09/15",
+        "items": [
+          "Pipeline review, 10:00 to 10:50 AM",
+          "Candidate final, Nils Ahlberg, 11:30 AM to 12:20 PM",
+          "Open, 1:00 to 5:00 PM"
+        ]
+      },
+      {
+        "day": "Wednesday 09/16",
+        "items": [
+          "Focus block, 9:00 AM to 1:00 PM (all hands 10:00 to 10:30 AM sits inside it)",
+          "Open, 1:00 to 3:00 PM",
+          "Investor update writing, 3:00 to 4:00 PM",
+          "Open, 4:00 to 5:00 PM"
+        ]
+      },
+      {
+        "day": "Thursday 09/17",
+        "items": [
+          "Product review, 10:00 to 10:50 AM",
+          "Open, 11:00 AM to 3:00 PM",
+          "Dentist, 3:00 to 4:00 PM (personal)",
+          "Open, 4:00 to 5:00 PM"
+        ]
+      },
+      {
+        "day": "Friday 09/18",
+        "items": [
+          "Internal only. Team retro, 11:00 to 11:50 AM. No external meetings."
+        ]
+      }
+    ]
+  },
+  "emails": [
+    {
+      "id": 1,
+      "from": "Priya Raman",
+      "email": "priya@harborline.vc",
+      "org": "Harborline Ventures (lead investor)",
+      "to": "sam@verdano.io",
+      "subject": "Board deck for Sept 22 - can I see the numbers by Thursday?",
+      "date": "09/11/2026 4:12 PM",
+      "attachment": false,
+      "body": "Sam, before the board meeting on the 22nd I want to walk through the numbers with you one on one. Send me the ARR bridge, net retention and the hiring plan by Thursday EOD so I have time to read them properly. If the Series A conversation is going to come up at the board, I would rather we align first."
+    },
+    {
+      "id": 2,
+      "from": "Dana Lindqvist",
+      "email": "dana@brightfieldfoods.com",
+      "org": "Brightfield Foods (largest customer, $84k ARR)",
+      "to": "sam@verdano.io",
+      "subject": "Re: Multi-year renewal - pricing",
+      "date": "09/10/2026 2:41 PM",
+      "attachment": false,
+      "body": "Our procurement team will sign a three-year deal, but they want 20% off the current rate and payment annually in arrears instead of upfront. I have room to push back on the payment terms, not on the discount. Our renewal date is Oct 31, and legal needs three weeks, so I need an answer from you this week."
+    },
+    {
+      "id": 3,
+      "from": "Dana Lindqvist",
+      "email": "dana@brightfieldfoods.com",
+      "org": "Brightfield Foods",
+      "to": "sam@verdano.io",
+      "subject": "Re: Multi-year renewal - pricing",
+      "date": "09/14/2026 8:02 AM",
+      "attachment": false,
+      "body": "Following up on Thursday. Any thoughts on the 20%? I have a procurement sync at 4 PM today and would like to bring something back."
+    },
+    {
+      "id": 4,
+      "from": "Marcus Oyelaran",
+      "email": "m.oyelaran@northwaterdairy.com",
+      "org": "Northwater Dairy ($31k ARR)",
+      "to": "sam@verdano.io",
+      "subject": "Winding down our account",
+      "date": "09/11/2026 5:48 PM",
+      "attachment": false,
+      "body": "Thanks for the work over the past year. We have decided not to renew in November. Nothing dramatic, the reporting never quite fit how our plants track batches, and we ended up rebuilding most of it in spreadsheets anyway. Happy to do a call if useful, otherwise I will let our finance team know to stop the auto-renewal."
+    },
+    {
+      "id": 5,
+      "from": "Eli Cardoso",
+      "email": "eli@verdano.io",
+      "org": "Verdano, Head of Engineering",
+      "to": "team@verdano.io",
+      "cc": "sam@verdano.io",
+      "subject": "Sprint 34 update + one risk",
+      "date": "09/14/2026 7:15 AM",
+      "attachment": false,
+      "body": "Sprint 34 closes Wednesday. Supplier import is done, the emissions factor update is at 80%. One risk: the export service has been timing out on large accounts since Friday and we have not found the cause yet. Nothing needed from anyone outside the team right now, I will update on Wednesday."
+    },
+    {
+      "id": 6,
+      "from": "Olive Mbeki",
+      "email": "olive@ledgerworksbooks.com",
+      "org": "Ledgerworks (outsourced bookkeeping)",
+      "to": "sam@verdano.io",
+      "subject": "Payroll approval needed by Tue 5 PM ET",
+      "date": "09/11/2026 11:20 AM",
+      "attachment": true,
+      "body": "September payroll is ready for your approval. Two changes since August: Jae-won moved to the higher contractor rate you approved, and we added the new data engineer as pending. If I do not have your approval in the portal by Tuesday 5 PM ET, the run slips to the following cycle and everyone is paid five days late."
+    },
+    {
+      "id": 7,
+      "from": "Northbridge Bank Security",
+      "email": "security@northbrid-ge-alerts.com",
+      "org": "unknown sender",
+      "to": "sam@verdano.io",
+      "subject": "Action required: verify your wire recipients within 24 hours",
+      "date": "09/13/2026 10:07 PM",
+      "attachment": false,
+      "body": "We detected unusual activity on your business account. To keep outgoing transfers active, confirm your recipient list using the secure link below within 24 hours. Failure to verify will result in temporary suspension of outgoing wires. Do not reply to this message, use the verification portal."
+    },
+    {
+      "id": 8,
+      "from": "Verdano Payables",
+      "email": "accounts@verdano-billing.co",
+      "org": "unknown sender",
+      "to": "sam@verdano.io",
+      "subject": "Updated bank details for invoice 2214",
+      "date": "09/14/2026 6:41 AM",
+      "attachment": true,
+      "body": "Hi Sam, our bank has changed as part of a group restructure. Please use the updated account details in the attached PDF for invoice 2214 which is due this week. Kindly confirm once the payment has been actioned so we can update our records."
+    },
+    {
+      "id": 9,
+      "from": "Bianca Ferraro",
+      "email": "b.ferraro@wrightcallow.com",
+      "org": "Wright & Callow LLP (outside counsel)",
+      "to": "sam@verdano.io",
+      "subject": "Brightfield MSA redlines - two open points",
+      "date": "09/11/2026 2:30 PM",
+      "attachment": true,
+      "body": "Their counsel sent redlines. Most is standard. Two points need your decision: they want uncapped liability for data breaches, and a 12-month exclusivity clause for the dairy segment. My recommendation is to reject both, but exclusivity is a commercial call, not a legal one. Marked up copy attached."
+    },
+    {
+      "id": 10,
+      "from": "Ruby Tavares",
+      "email": "ruby@secondorderpod.com",
+      "org": "Second Order podcast",
+      "to": "sam@verdano.io",
+      "subject": "Recording invite: 45 minutes, week of Sept 21",
+      "date": "09/12/2026 9:15 AM",
+      "attachment": false,
+      "body": "We cover climate software for operators, about 11k listeners per episode. I would love to have you on to talk about measuring scope 3 emissions in food supply chains. We record remotely, 45 minutes, and we are booking the week of Sept 21. Tuesday or Thursday afternoon works best on our side."
+    },
+    {
+      "id": 11,
+      "from": "ClimateOps Summit",
+      "email": "speakers@climateopssummit.org",
+      "org": "ClimateOps Summit",
+      "to": "sam@verdano.io",
+      "subject": "Speaker confirmation deadline: today 6 PM ET",
+      "date": "09/14/2026 7:55 AM",
+      "attachment": false,
+      "body": "You are listed as a confirmed panelist for Supply Chain Data That Actually Gets Used on Oct 8 in Chicago. We go to print with the program today. Confirm your participation by 6 PM ET or we will fill the seat from the waitlist. Travel is not covered, the hotel block closes tonight."
+    },
+    {
+      "id": 12,
+      "from": "Nils Ahlberg",
+      "email": "nils.ahlberg@fastmail.com",
+      "org": "candidate, Senior Data Engineer",
+      "to": "sam@verdano.io",
+      "subject": "Offer - competing timeline",
+      "date": "09/13/2026 7:22 PM",
+      "attachment": false,
+      "body": "Thank you for the offer, I am genuinely excited about the emissions factor work. I have a second offer with a deadline of Wednesday. Verdano is my preference, but the base is 12k lower and there is no equity refresh mentioned. If you can move on either, I will sign this week."
+    },
+    {
+      "id": 13,
+      "from": "Renata Silva",
+      "email": "renata@verdano.io",
+      "org": "Verdano, Customer Success",
+      "to": "sam@verdano.io",
+      "subject": "Northwater churn - what I know",
+      "date": "09/14/2026 8:12 AM",
+      "attachment": false,
+      "body": "I saw Marcus copied you on the non-renewal. Context: their plant managers asked for batch-level reporting in March and we told them Q4. Usage dropped from 40 sessions a week to 6 after June. I flagged it in the July account review. I can try a save call, but I do not think we get them back without batch reporting."
+    },
+    {
+      "id": 14,
+      "from": "Hana Beck",
+      "email": "hana@littlefoxbakery.co",
+      "org": "Little Fox Bakery Co. ($4.8k ARR)",
+      "to": "billing@verdano.io",
+      "cc": "sam@verdano.io",
+      "subject": "Invoice 2209 - charged twice?",
+      "date": "09/11/2026 9:03 AM",
+      "attachment": true,
+      "body": "I see two charges of $398 on Sept 3 and Sept 9 for what looks like the same invoice. Screenshot from our bank attached. Can someone check and refund if it is a duplicate? Not urgent, but our accountant flagged it."
+    },
+    {
+      "id": 15,
+      "from": "Yusuf Kaya",
+      "email": "yk.research@protonmail.com",
+      "org": "independent security researcher",
+      "to": "sam@verdano.io",
+      "subject": "Security disclosure: exposed API key in your public repo",
+      "date": "09/12/2026 3:11 AM",
+      "attachment": false,
+      "body": "I found a live API key for your reporting service committed in a public repository under your org, file config/settings_sample.py, pushed 11 days ago. The key still works, I did not use it beyond one read request to confirm. I am not asking for a bounty. Rotate it and check your access logs. I can send details to whoever handles this."
+    },
+    {
+      "id": 16,
+      "from": "Jae-won Park",
+      "email": "jaewon@verdano.io",
+      "org": "Verdano, Design (contractor)",
+      "to": "sam@verdano.io",
+      "subject": "Website copy: I need your one-liner",
+      "date": "09/11/2026 4:55 PM",
+      "attachment": false,
+      "body": "The new homepage is ready except the hero line. I have three options from the old deck but none of them sound like you. Can you give me one sentence on what Verdano does, in your own words? I need it by Wednesday to hit the launch date."
+    },
+    {
+      "id": 17,
+      "from": "Tomas Weill",
+      "email": "tomas@harborline.vc",
+      "org": "Harborline Ventures, platform team",
+      "to": "sam@verdano.io",
+      "subject": "Intros to two LPs ahead of your A",
+      "date": "09/14/2026 7:40 AM",
+      "attachment": false,
+      "body": "Priya asked me to line up two intros for you: one fund that leads climate infrastructure at Series A, and one strategic investor from a food manufacturing group. Both said yes to a warm intro. I need a two-paragraph blurb and your latest metrics one-pager to send along. Can you get me both this week?"
+    },
+    {
+      "id": 18,
+      "from": "Ken Abara",
+      "email": "ken@abaraadvisory.com",
+      "org": "advisor",
+      "to": "sam@verdano.io",
+      "subject": "Can we talk this week?",
+      "date": "09/13/2026 8:15 PM",
+      "attachment": false,
+      "body": "Got a few minutes this week? Something I would rather say on a call than in email. Not urgent, but sooner is better than later."
+    },
+    {
+      "id": 19,
+      "from": "Maple Row School",
+      "email": "office@maplerowschool.org",
+      "org": "personal",
+      "to": "sam@verdano.io",
+      "subject": "Field trip consent form due Wednesday",
+      "date": "09/11/2026 1:02 PM",
+      "attachment": true,
+      "body": "A reminder that the consent form and the $35 fee for the Hudson Valley farm trip are due Wednesday. Students without a signed form stay at school that day. The form can be returned by email or in the office."
+    },
+    {
+      "id": 20,
+      "from": "Altair Airways",
+      "email": "noreply@altairairways.com",
+      "org": "personal travel",
+      "to": "sam@verdano.io",
+      "subject": "Your Sept 23 flight has changed",
+      "date": "09/13/2026 6:44 AM",
+      "attachment": false,
+      "body": "Flight AT414 from Newark to Chicago on Sept 23 has been rescheduled from 7:05 AM to 11:40 AM. Your connection is unaffected. You can accept the change, rebook without a fee within 24 hours, or request a refund."
+    },
+    {
+      "id": 21,
+      "from": "Dr. Ferrante Dental",
+      "email": "reception@ferrantedental.com",
+      "org": "personal",
+      "to": "sam@verdano.io",
+      "subject": "Appointment reminder: Sept 17, 3:00 PM",
+      "date": "09/12/2026 10:30 AM",
+      "attachment": false,
+      "body": "This is a reminder of your cleaning on Thursday Sept 17 at 3:00 PM. Reply CONFIRM to keep the slot. Cancellations within 24 hours are charged at 50%."
+    },
+    {
+      "id": 22,
+      "from": "Priya Raman",
+      "email": "priya@harborline.vc",
+      "org": "Harborline Ventures",
+      "to": "sam@verdano.io",
+      "subject": "Quick: are you free Wed 2 PM?",
+      "date": "09/14/2026 8:22 AM",
+      "attachment": false,
+      "body": "I have a 30 minute gap Wednesday at 2 PM ET and would like to use it for the pre board walkthrough. Works on my side, and I can do it from the car if you are fine with audio only."
+    },
+    {
+      "id": 23,
+      "from": "Dana Lindqvist",
+      "email": "dana@brightfieldfoods.com",
+      "org": "Brightfield Foods",
+      "to": "sam@verdano.io",
+      "subject": "QBR Wednesday 2 PM?",
+      "date": "09/14/2026 8:25 AM",
+      "attachment": false,
+      "body": "Our quarterly review is overdue. I can bring the plant leads on Wednesday at 2 PM ET, we would need a full hour. If Wednesday does not work, the next time I can get all four of them in one room is Oct 6."
+    },
+    {
+      "id": 24,
+      "from": "Marta Kowalczyk",
+      "email": "m.kowalczyk@emissionsdesk.eu",
+      "org": "Emissions Desk (trade press)",
+      "to": "sam@verdano.io",
+      "subject": "Comment by 3 PM today on the CSRD reporting changes",
+      "date": "09/14/2026 7:33 AM",
+      "attachment": false,
+      "body": "I am writing about the CSRD amendment and how it lands for mid-size food manufacturers. I want one or two quotes from a software vendor working with them. Deadline is 3 PM ET today. Two questions: does the amendment reduce the reporting burden in practice, and what are your customers actually doing about scope 3."
+    },
+    {
+      "id": 25,
+      "from": "Greg Tran",
+      "email": "greg.tran@sunfeathersnacks.com",
+      "org": "inbound lead",
+      "to": "hello@verdano.io",
+      "cc": "sam@verdano.io",
+      "subject": "Demo request - 40 SKUs, 6 co-manufacturers",
+      "date": "09/12/2026 10:20 AM",
+      "attachment": false,
+      "body": "We make 40 SKUs across six co-manufacturers and our retailer is asking for supplier level emissions data by January. Saw your case study with a bakery group. Can we see a demo in the next two weeks? I am in Austin, and our ops lead would join."
+    },
+    {
+      "id": 26,
+      "from": "Lena Fischer",
+      "email": "l.fischer@kernhaus.de",
+      "org": "inbound lead",
+      "to": "hello@verdano.io",
+      "cc": "sam@verdano.io",
+      "subject": "Do you support EU suppliers?",
+      "date": "09/14/2026 6:58 AM",
+      "attachment": false,
+      "body": "Quick question before we book anything: do you support suppliers based in the EU, and do you hold data in the EU? We are in Hamburg and our legal team will ask both questions before a demo."
+    },
+    {
+      "id": 27,
+      "from": "Deskline",
+      "email": "billing@deskline.com",
+      "org": "vendor",
+      "to": "sam@verdano.io",
+      "subject": "Final notice: your trial ends in 48 hours",
+      "date": "09/13/2026 9:00 AM",
+      "attachment": false,
+      "body": "Your Deskline trial ends in 48 hours. Upgrade now to keep your ticket history, saved views and macros. After the trial your workspace is archived for 30 days and then deleted. Plans start at $29 per agent."
+    },
+    {
+      "id": 28,
+      "from": "Ravi Chandrasekaran",
+      "email": "ravi@cloudtrimadvisors.com",
+      "org": "cold outreach",
+      "to": "sam@verdano.io",
+      "subject": "Cut your cloud spend 40% - 15 minutes?",
+      "date": "09/12/2026 11:47 AM",
+      "attachment": false,
+      "body": "We help Series A startups cut cloud spend by an average of 40% with no code changes. We only get paid from what we save. Do you have 15 minutes Thursday or Friday to see if there is anything here for Verdano?"
+    },
+    {
+      "id": 29,
+      "from": "Anya Petrenko",
+      "email": "anya@devforgestaff.com",
+      "org": "cold outreach",
+      "to": "sam@verdano.io",
+      "subject": "500 vetted engineers, ready in 72 hours",
+      "date": "09/11/2026 8:05 AM",
+      "attachment": true,
+      "body": "Our bench has 500 pre vetted engineers across data, backend and mobile, available within 72 hours at $28 per hour. Attached are five profiles that match your open data engineer role. Happy to run a trial week at no cost."
+    },
+    {
+      "id": 30,
+      "from": "Carbon Ledger Weekly",
+      "email": "news@carbonledgerweekly.com",
+      "org": "newsletter",
+      "to": "sam@verdano.io",
+      "subject": "The scope 3 reckoning nobody budgeted for",
+      "date": "09/14/2026 6:00 AM",
+      "attachment": false,
+      "body": "This week: three food groups quietly moved their supplier data deadlines, the EU amendment explained in plain language, and why primary data collection is still mostly manual. Plus five funding rounds in climate accounting software."
+    },
+    {
+      "id": 31,
+      "from": "SaaS Metrics Digest",
+      "email": "hello@saasmetricsdigest.com",
+      "org": "newsletter",
+      "to": "sam@verdano.io",
+      "subject": "Net revenue retention benchmarks, Q3 2026",
+      "date": "09/13/2026 7:00 AM",
+      "attachment": false,
+      "body": "Median NRR for seed stage B2B software dropped to 101% this quarter. In this issue: the expansion levers that still work, why logo churn is a lagging indicator, and a spreadsheet template for cohort analysis."
+    },
+    {
+      "id": 32,
+      "from": "Founder Therapy",
+      "email": "list@foundertherapy.co",
+      "org": "newsletter",
+      "to": "sam@verdano.io",
+      "subject": "You are not behind",
+      "date": "09/12/2026 5:30 AM",
+      "attachment": false,
+      "body": "A short letter this week about comparison and pacing, plus an exercise for founders who cannot switch off on weekends. Reply to this email if you want the workbook."
+    },
+    {
+      "id": 33,
+      "from": "Crewly",
+      "email": "notifications@crewly.com",
+      "org": "ATS notification",
+      "to": "sam@verdano.io",
+      "subject": "3 new applicants for Data Engineer",
+      "date": "09/14/2026 5:15 AM",
+      "attachment": false,
+      "body": "Three candidates applied to Data Engineer since Friday. Two have completed the screening questions. No action is required in the system, applications stay in the pipeline until someone reviews them."
+    },
+    {
+      "id": 34,
+      "from": "Payrail",
+      "email": "notify@payrail.com",
+      "org": "payments vendor",
+      "to": "sam@verdano.io",
+      "subject": "Your payout of $18,420.00 is on the way",
+      "date": "09/14/2026 4:02 AM",
+      "attachment": false,
+      "body": "A payout of $18,420.00 has been initiated to your account ending 4471 and should arrive within two business days. This covers customer payments settled between Sept 5 and Sept 12."
+    },
+    {
+      "id": 35,
+      "from": "Pagewise",
+      "email": "team@pagewise.com",
+      "org": "vendor",
+      "to": "sam@verdano.io",
+      "subject": "Your workspace is 92% full",
+      "date": "09/12/2026 2:20 PM",
+      "attachment": false,
+      "body": "Your Verdano workspace has used 92% of its storage. When you hit 100%, new uploads are blocked until you free space or move to the next tier at $12 per user per month. Current usage is driven by file attachments older than 12 months."
+    },
+    {
+      "id": 36,
+      "from": "Verdano Team Calendar",
+      "email": "calendar-notification@verdano.io",
+      "org": "internal",
+      "to": "sam@verdano.io",
+      "subject": "Invitation: All hands - Wednesday 10:00 AM ET",
+      "date": "09/11/2026 12:00 PM",
+      "attachment": false,
+      "body": "Renata invited you to All hands, Wednesday 10:00 to 10:30 AM ET, recurring weekly. Agenda in the linked doc: September numbers, the export incident, and one customer story."
+    },
+    {
+      "id": 37,
+      "from": "Eli Cardoso",
+      "email": "eli@verdano.io",
+      "org": "Verdano, Head of Engineering",
+      "to": "sam@verdano.io",
+      "subject": "Need your approval: infra plan upgrade, $1,100 per month",
+      "date": "09/14/2026 8:05 AM",
+      "attachment": false,
+      "body": "The export timeouts are partly a capacity problem. Moving to the next Corestack tier costs $1,100 a month on top of what we pay now and would fix the large account exports this week. The alternative is two weeks of optimization work by Tomek, which I would rather spend on the emissions factor release. Your call, but I need it today to get it in before the sprint closes."
+    },
+    {
+      "id": 38,
+      "from": "Ade Salami",
+      "email": "a.salami@brightfieldfoods.com",
+      "org": "Brightfield Foods, data analyst",
+      "to": "support@verdano.io",
+      "cc": "sam@verdano.io",
+      "subject": "Report export failing since Friday",
+      "date": "09/14/2026 7:12 AM",
+      "attachment": true,
+      "body": "Every export over about 5,000 rows times out and returns an error. It started Friday morning. I need the September supplier report for a board pack on Wednesday, and right now I cannot get the data out at all. Screenshot of the error attached. Dana knows I am chasing this."
+    },
+    {
+      "id": 39,
+      "from": "Hollis Grant",
+      "email": "hollis@fieldmarkconsulting.com",
+      "org": "potential partner",
+      "to": "sam@verdano.io",
+      "subject": "Reseller partnership for our food manufacturing clients?",
+      "date": "09/11/2026 3:40 PM",
+      "attachment": false,
+      "body": "We advise 30 mid-size food manufacturers on compliance and most of them are about to be asked for supplier emissions data. We would like to resell or refer Verdano and take a margin. Is there an existing partner program, and if not, would you build one with us as the first partner?"
+    },
+    {
+      "id": 40,
+      "from": "Climate 50",
+      "email": "nominations@climate50.org",
+      "org": "industry list",
+      "to": "sam@verdano.io",
+      "subject": "You were nominated for the Climate 50 - form due Sept 25",
+      "date": "09/12/2026 4:45 PM",
+      "attachment": false,
+      "body": "Someone nominated Verdano for this year's Climate 50, a list of climate software companies to watch. To be considered you need to submit the company form by Sept 25: funding, headcount, customers served and one measurable outcome. There is no fee."
+    },
+    {
+      "id": 41,
+      "from": "Colleen Mbatha",
+      "email": "colleen@ridgelinebrokers.com",
+      "org": "insurance broker",
+      "to": "sam@verdano.io",
+      "subject": "D&O policy lapses Sept 18 - signature needed",
+      "date": "09/12/2026 8:50 AM",
+      "attachment": true,
+      "body": "Your directors and officers policy renews on Sept 18. I need the signed application and the updated board list back before then, otherwise the policy lapses and you are uninsured until a new one is bound, which takes about two weeks. The premium is unchanged at $6,800 for the year. Application attached, two signature fields."
+    },
+    {
+      "id": 42,
+      "from": "Brandon Neel",
+      "email": "b.neel@apextalentpartners.com",
+      "org": "cold outreach",
+      "to": "sam@verdano.io",
+      "subject": "I have three data engineers ready to interview",
+      "date": "09/13/2026 11:11 AM",
+      "attachment": false,
+      "body": "I place data engineers at climate startups and I have three candidates who just came off the market. My fee is 18% with a 90 day guarantee. Can I send profiles over? I can have them in your calendar this week."
+    },
+    {
+      "id": 43,
+      "from": "Grover & Lin CPAs",
+      "email": "tax@groverlin.com",
+      "org": "accountants",
+      "to": "sam@verdano.io",
+      "subject": "Q3 estimated taxes due Sept 15",
+      "date": "09/11/2026 10:15 AM",
+      "attachment": true,
+      "body": "The Q3 estimated payment is due tomorrow, Sept 15. The voucher and the calculated amount of $4,120 are attached. If the payment is late the penalty accrues daily. Confirm once it is scheduled and we will note it in the file."
+    },
+    {
+      "id": 44,
+      "from": "Priya Raman",
+      "email": "priya@harborline.vc",
+      "org": "Harborline Ventures",
+      "to": "sam@verdano.io",
+      "subject": "Did you ever connect with Ana?",
+      "date": "09/13/2026 11:30 AM",
+      "attachment": false,
+      "body": "I introduced you to Ana Duarte at Vessel Foods three weeks ago, she runs sustainability for 11 plants and was ready to pilot. She asked me on Friday whether Verdano was still interested. Awkward for me. Did the thread get lost?"
+    },
+    {
+      "id": 45,
+      "from": "Hana Beck",
+      "email": "hana@littlefoxbakery.co",
+      "org": "Little Fox Bakery Co.",
+      "to": "sam@verdano.io",
+      "subject": "Thank you",
+      "date": "09/12/2026 12:40 PM",
+      "attachment": false,
+      "body": "Just wanted to say the new supplier view saved our production manager about a day of work last month. She told me to tell you. No reply needed."
+    },
+    {
+      "id": 46,
+      "from": "Renata Silva",
+      "email": "renata@verdano.io",
+      "org": "Verdano, Customer Success",
+      "to": "sam@verdano.io",
+      "subject": "Can I approve a $200 goodwill credit for Little Fox?",
+      "date": "09/14/2026 8:18 AM",
+      "attachment": false,
+      "body": "Little Fox was double charged and they have been patient about it. I would like to refund the duplicate and add a $200 credit for the trouble. Fine with you, or do you want to keep goodwill credits at your level?"
+    },
+    {
+      "id": 47,
+      "from": "ClimateOps Summit",
+      "email": "logistics@climateopssummit.org",
+      "org": "ClimateOps Summit",
+      "to": "sam@verdano.io",
+      "subject": "Hotel block closes tonight",
+      "date": "09/13/2026 5:25 PM",
+      "attachment": false,
+      "body": "The discounted room block for Oct 7 to 9 at the conference hotel closes tonight at midnight CT. Rooms are $189 a night inside the block and about $340 outside it. Speakers book through the same link as attendees."
+    },
+    {
+      "id": 48,
+      "from": "Global Yield Partners",
+      "email": "invest@globalyieldpartners.biz",
+      "org": "unknown sender",
+      "to": "sam@verdano.io",
+      "subject": "Guaranteed 14% monthly returns for founders",
+      "date": "09/13/2026 2:03 AM",
+      "attachment": false,
+      "body": "Exclusive opportunity for startup founders with idle treasury. Our managed portfolio has returned 14% monthly for 26 consecutive months with capital protection. Minimum allocation $50,000. Reply with your phone number for a private briefing."
+    },
+    {
+      "id": 49,
+      "from": "Jae-won Park",
+      "email": "jaewon@verdano.io",
+      "org": "Verdano, Design (contractor)",
+      "to": "sam@verdano.io",
+      "subject": "PTO Sept 28 to Oct 2, ok?",
+      "date": "09/11/2026 6:10 PM",
+      "attachment": false,
+      "body": "Planning to take the week of Sept 28 off. The website launch is done by then and I have nothing else on the calendar that week. Let me know if that clashes with anything I cannot see."
+    },
+    {
+      "id": 50,
+      "from": "Corestack Billing",
+      "email": "billing@corestack.com",
+      "org": "infrastructure vendor",
+      "to": "sam@verdano.io",
+      "subject": "Your September bill: $4,908 (up 38%)",
+      "date": "09/14/2026 5:00 AM",
+      "attachment": true,
+      "body": "Your usage this billing period came to $4,908, which is 38% higher than August. The increase is driven by compute in the export service. Detailed breakdown attached. Payment is collected automatically on the 20th."
+    }
+  ]
+}
